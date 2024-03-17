@@ -1,0 +1,336 @@
+img{
+    height: 86px;
+    width: 194px;
+    position: relative;
+    left: 111px;
+    bottom: 45px;
+
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.95rem;
+    color: black;
+}
+
+a{
+    color: #3366cc;
+    font-size: 0.955rem;
+}
+.bar{
+    font-size:xx-large;
+    position: relative;
+    top: 10px;
+    left: 45px;
+}
+
+.search{
+    left: 350px;
+    position :absolute;
+    top: 30px;
+}
+
+input{
+    position: absolute;
+    width: 400px;
+    height:20px;
+}
+
+.se{
+    position: absolute;
+    left: 407px;
+    height: 25px;
+}
+
+.mm{
+    height: 27px;
+    width: 35px;
+    position: absolute;
+    top: -1px;
+    left: 0.5px;
+}
+
+.creden{
+    position: absolute;
+    right: 142px;
+    top :35px ;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    margin: 12px;
+    font-family:'Times New Roman', Times, serif;
+      
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.sidebar{
+    position: fixed;
+
+    left: 50px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-content:space-evenly,space-around;
+    align-items: left;
+}
+
+.item{
+    padding: 4px;
+    margin-top: 2px;
+}
+
+button{
+    margin: 0px;
+}
+
+.aaa{
+    margin:0px;
+}
+
+.ch{
+    margin: 13px;
+}
+
+.itum{
+    
+    position: relative;
+    top: 2px;
+    padding: 0px;
+    margin-top:0px ;
+}
+
+.itemm{
+    position: relative;
+    top: 15px;
+}
+
+hr{
+    border-color:whitesmoke;
+}
+
+
+
+.content{
+    position: absolute;
+    top: 80px;
+    left: 350px;
+    width:820px;
+}
+
+.zz{
+    position: relative;
+    
+    top: 25px;
+}
+
+.head1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.lang{
+    position: absolute;
+    right: 10px;
+}
+
+.left{
+    position: relative;
+    right: 10px;
+    display: flex;
+    
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+
+.opt{
+    padding: 0.5px;
+}
+
+.right{
+    position: absolute;
+    right: 0px;
+    top: 91px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.textual{
+    position: relative;
+    left: 340px;
+    width:490px;
+    bottom: -65px;
+    font-size: small;
+}
+
+.side{
+    position: absolute;
+    display: grid;
+    grid-template-rows: repeat(16,74px);
+    grid-template-columns: repeat(2,150px);
+    align-content: space-around;
+    top: 250px;
+    right: 350px;
+    width: 300px;
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    
+    
+}
+
+.name{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+
+    background-color: #f8f9fa;
+    width: 300px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+.i{
+    position: relative;
+    padding: 3px;
+    left: 4px ;
+
+}
+
+#ae{
+    font-size: large;
+}
+
+.images{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url(Flag_of_India..png);
+    background-repeat: no-repeat;
+    background-size: 110px;
+    background-position: center;
+
+    
+    text-align:center;
+    
+}
+
+.images1{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-image: url(emblem.png);
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: center;
+
+    text-align: center;
+
+}
+
+.p1{
+    position: relative;
+    top: 115px;
+}
+
+.p2{
+    position: relative;
+    top: 120px;
+}
+
+.writi{
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: small;
+
+}
+
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: small;
+}
+
+.k{
+    padding: 3px;
+}
+
+.part2{
+    margin: 10px;
+    padding: 8px;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size:small;
+    position: relative;
+    top: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.photu{
+    grid-row-start: 7;
+    grid-row-end: 11;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(map.png);
+    background-repeat: no-repeat;
+    background-position: 50px 55px;
+    background-size: 200px;
+}
+
+.txtucla{
+    grid-row-start: 10;
+    grid-row-end: 11;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: smaller;
+    text-align: center;
+}
+
+.j11{
+    position:relative;
+    top: 44px;
+}
+
+.capitalL{
+    grid-row-start: 11;
+    grid-row-end: 12;
+    position: relative;
+    top: 25px;
+    left: 17px;
+    font-size: small;
+    
+}
+
+
+ 

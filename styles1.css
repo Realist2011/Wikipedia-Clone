@@ -1,0 +1,19 @@
+.top{
+    display: grid;
+    grid-template-rows: repeat(5,5fr);
+    grid-template-columns: repeat(5,5fr);
+}
+
+.search{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.creden{
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+img{
+    width: 192px;
+    height: 103px;
+}
